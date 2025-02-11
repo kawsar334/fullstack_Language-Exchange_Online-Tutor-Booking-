@@ -67,8 +67,10 @@ const Navbar = () => {
     <div className="navbar bg-base-100 sticky top-0 left-0 z-50 shadow-md px-5 " >
       <div className="navbar-start" >
         <Link to="/" className="text-xl font-bold text-teal" >
-          <span className='mr-2'> <i className="fa-solid fa-earth-asia text-xl"></i></span>
-          Language <span className='text-mn'>Exchange</span>
+          <span className='mr-2'> 
+            <i className="fa-solid fa-earth-asia text-xl"></i>
+          </span>
+          Language <span className={`${isDarkMode ? 'text-white' :"text-mn"}`}>Exchange</span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex gap-3">
