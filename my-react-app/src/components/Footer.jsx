@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Fade } from "react-awesome-reveal"; // Import the Fade component
 import { Link } from "react-router-dom";
+import { ThemeContext } from "../ThemeProvider";
 
 export const Footer = () => {
+   const { isDarkMode, toggleTheme } = useContext(ThemeContext);
   return (
-    <footer className="footer p-10 bg-transparent text-base-content">
+    <footer className="footer p-10 bg-[rgba(0,0,0,0.1)] text-base-content">
       <div>
         <div className="navbar-start  w-full" >
                 <Link to="/" className="text-xl font-bold text-teal" >
                   <span className='mr-2'> <i className="fa-solid fa-earth-asia text-xl"></i></span>
-                  Language <span className='text-mn'>Exchange</span>
+            Language <span className={`${isDarkMode ? 'text-white' : "text-mn"}`}>Exchange</span>
                 </Link>
               </div>
         <p className="text-sm w-[300px]">
@@ -58,7 +60,7 @@ export const Footer = () => {
 
           
           <a
-            href="https://kawsar334.github.io/assignment_one/"
+            href="https://kawsarfiroz2.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xl"
