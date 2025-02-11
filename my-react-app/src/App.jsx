@@ -6,15 +6,9 @@ import * as ReactDOM from "react-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PageTitle from './components/PageTitle';
 import Details from './pages/Details';
-import Dashboard from './pages/Dashboard';
-import CartPage from './pages/CartPage';
 import Layout from './pages/Layouts/Layout';
-import Wishlist from './pages/Wishlist';
 import Login from './pages/Login';
-import About from './pages/About';
-import Statistics from './pages/Statistics';
 import NotFound from './pages/Notfound';
-import CartContext from './context/CartStorage';
 import RegisterPage from './pages/Register';
 import ProtectedRoute from './ProtectedRoute';
 import { RedirectRoute } from './pages/RedirectRoute';
@@ -51,7 +45,6 @@ function App() {
           element: (
             <PageTitle title="profile">
               <ProtectedRoute>
-
               <Profile />
               </ProtectedRoute>
             </PageTitle>

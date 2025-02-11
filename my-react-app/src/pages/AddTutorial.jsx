@@ -18,7 +18,7 @@ const AddTutorial = () => {
         language: '',
         price: '',
         description: '',
-        review: 0, // Default review is 0
+        review: 0, 
     });
     const handleChange = (e) => {
         const { name, value } = e.target;

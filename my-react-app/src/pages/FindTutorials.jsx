@@ -1,20 +1,4 @@
-// import React from 'react'
-// import { useLocation } from 'react-router-dom'
-// import useFetch from '../data/UseFetch';
 
-// const FindTutorials = () => {
-
-
-//     const cat = useLocation().pathname.split("/")[2];
-   
-//     const { data, loading, error } = useFetch(`https://server-wheat-xi.vercel.app/findLanguage?language=${cat}`);
-//     console.log(cat, data?.data)
-//   return (
-//     <div>FindTutorials</div>
-//   )
-// }
-
-// export default FindTutorials
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import useFetch from '../data/UseFetch';

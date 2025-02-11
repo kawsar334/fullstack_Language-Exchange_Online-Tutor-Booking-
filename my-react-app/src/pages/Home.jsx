@@ -1,18 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from '../components/Navbar';
-import { Footer } from '../components/Footer';
 import { Hero } from '../components/Hero';
-import Products from '../components/producs/Products';
-import HomeContents from '../components/childrenComponents/HomeContents';
 import LanguageCategory from '../components/LanguageCategory';
 import ReviewsSection from '../components/Reviews';
 import About from '../components/About';
 import Testimonials from '../components/Testimonials';
 import FAQ from '../FAQ';
-import LottieExample from '../components/Sidebar';
 import Stats from '../components/States';
 import useFetch from '../data/UseFetch';
-import { toast } from 'react-toastify';
 import TutorComponent from '../components/TutorsComponent';
 import Spiner from '../components/Spiner';
 import Services from '../components/Services';
