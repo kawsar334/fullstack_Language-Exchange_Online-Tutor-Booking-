@@ -1,20 +1,64 @@
 
-# Online Tutor Booking Platform - Backend
-
-This is the **backend** repository for the Online Tutor Booking Platform. It handles the server-side logic, database operations, and API endpoints to support the frontend functionalities. The backend is built using **Node.js** and **Express.js**, with **MongoDB** as the database.
-
+## Online Tutor Booking Platform
 
 ## Links
-**Backend Links**
-- [backend github link](https://github.com/kawsar334/server-Language-Exchange---Online-Tutor-Booking-Platform)
-- [api Link on vercel](https://server-wheat-xi.vercel.app/) +/endpoind 
-
 
 **frontend Links**
 
 - [Live Link1](https://gorgeous-shortbread-b2c9fe.netlify.app/)
 
 - [frontend github link](https://github.com/kawsar334/client_Language-Exchange_Online-Tutor-Booking)
+
+**Backend Links**
+- [backend github link](https://github.com/kawsar334/server-Language-Exchange---Online-Tutor-Booking-Platform)
+- [api Link on vercel](https://server-wheat-xi.vercel.app/) +/endpoind 
+
+### Description
+- 
+This is the **Fullstack** repository for the Online Tutor Booking Platform, a web application that connects users with tutors across various languages and subjects. The frontend is built using **React.js** **Nodejs,mongodb**  and styled with **Tailwind CSS** to provide a modern, responsive, and user-friendly interface.
+
+## **Features**
+- 🔑 **Authentication System**:
+  - Email/Password-Based Login
+  - Google Sign-In
+- 🌟 **Dynamic Pages**:
+  - Home, Find Tutors, Tutor Details, My Tutorials, and My Booked Tutors
+- 🌓 **Dark/Light Mode Toggle** for a personalized user experience
+- 📱 Fully responsive design for mobile, tablet, and desktop
+- 🔍 **Search Functionality** on the Find Tutors page
+- 🎨 Intuitive UI with proper alignment and color contrast
+- 🖼️ **Image Carousel/Banner** on the home page
+
+## **Key Pages**
+1. **Home Page**:
+   - Dynamic statistics (tutors, reviews, languages, users)
+   - Language categories with clickable cards
+   - Additional sections for added value
+
+2. **Find Tutors Page**:
+   - Display all tutors and filter them by category or language
+   - Search bar for easy navigation
+
+3. **Tutor Details Page** (Private Route):
+   - Show detailed tutor information
+   - Option to book a tutor
+
+4. **My Tutorials Page** (Private Route):
+   - Display all tutorials added by the user
+   - Update and delete functionality
+
+5. **My Booked Tutors Page** (Private Route):
+   - Show booked tutors with details and review functionality
+
+---
+
+## **Frontend  Technologies Used**
+- **React.js** for the user interface
+- **Tailwind CSS** for styling
+- **Firebase Authentication** for secure login and registration
+- **Axios** for API requests
+- **React Router DOM** for navigation
+- **JWT Authentication** for securing private routes
 
 
 ## **Features**
@@ -30,8 +74,8 @@ This is the **backend** repository for the Online Tutor Booking Platform. It han
 
 ---
 
-
-## **Technologies Used**
+ ## Backend 
+## **Backend  Technologies Used**
 - **Node.js** for server-side scripting
 - **Express.js** for API and routing
 - **MongoDB** with **Mongoose** for database management
@@ -169,4 +213,6 @@ This is the **backend** repository for the Online Tutor Booking Platform. It han
 - **Test API Status**  
   `GET /`  
   Confirms the API is running successfully.
+
+
 
