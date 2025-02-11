@@ -27,7 +27,7 @@ const Layout = () => {
         <div className={isDarkMode ? "bg-mn text-white" : "bg-white text-mn"}>
 
             <Navbar cartData={cartData}/>
-           {path === "/" && !user &&<Nav2/>}
+           {/* {path === "/" && !user &&<Nav2/>} */}
             <Outlet />
             <Footer />
         </div>
