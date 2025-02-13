@@ -14,7 +14,7 @@ const TutorComponent = ({ uniqueTutor }) => {
     }
 
     return (
-        <div className="p-6 my-[100px] w-full">
+        <div className="p-6 my-[50px] w-full ">
             <Title title="Our Tutors category"/>
             <div className="my-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full md:w-[90%] lg:w-[90%]  mx-auto  ">
 

@@ -14,13 +14,13 @@ const MyTutorials = () => {
     const {user}= useContext(AuthContext)
     const { isDarkMode, toggleTheme } = useContext(ThemeContext)
     const navigate = useNavigate()
-    const { data, loading, error } = useFetch(`https://server-wheat-xi.vercel.app/mytutorials/${user?.email}`);
+    const { data, loading, error } = useFetch(`https://languageexchange-one.vercel.app/mytutorials/${user?.email}`);
 
     
     
     // const handleDelete = async (id) => {
     //     try {
-    //         const response = await fetch(`https://server-wheat-xi.vercel.app/tutorial/${id}`, {
+    //         const response = await fetch(`https://languageexchange-one.vercel.app/tutorial/${id}`, {
     //             method: 'DELETE',
     //             credentials: 'include', 
     //             headers: {
@@ -57,7 +57,7 @@ const MyTutorials = () => {
 
         if (confirmation.isConfirmed) {
             try {
-                const response = await fetch(`https://server-wheat-xi.vercel.app/tutorial/${id}`, {
+                const response = await fetch(`https://languageexchange-one.vercel.app/tutorial/${id}`, {
                     method: 'DELETE',
                     credentials: 'include',
                     headers: {

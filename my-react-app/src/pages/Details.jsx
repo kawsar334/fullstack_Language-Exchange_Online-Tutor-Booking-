@@ -12,7 +12,7 @@ const ViewDetailsPage = () => {
       setLoading(false)
       const fetchEquipmentDetails = async () => {
         try {
-          const response = await fetch(`https://server-wheat-xi.vercel.app/product/${id}`);
+          const response = await fetch(`https://languageexchange-one.vercel.app/product/${id}`);
           const data = await response.json();
           setEquipment(data);
         } catch (error) {

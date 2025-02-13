@@ -17,7 +17,7 @@ const ProductSection = () => {
   useEffect(() => {
     const fetchEquipment = async () => {
       try {
-        const response = await fetch("https://server-wheat-xi.vercel.app/products");
+        const response = await fetch("https://languageexchange-one.vercel.app/products");
         const data = await response.json();
 
 

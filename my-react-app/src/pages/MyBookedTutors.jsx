@@ -17,7 +17,7 @@ const MyBookedTutors = () => {
         const fetchTutorDetails = async () => {
             setLoading(true);
             try {
-                const response = await fetch(`https://server-wheat-xi.vercel.app/mybooked/${email}`);
+                const response = await fetch(`https://languageexchange-one.vercel.app/mybooked/${email}`);
 
                 const data = await response.json();
                 setLoading(false)
@@ -36,7 +36,7 @@ const MyBookedTutors = () => {
         console.log(item?.tutorId)
 
         try {
-            const response = await fetch(`https://server-wheat-xi.vercel.app/updatedReview/${item?.tutorId}`, {
+            const response = await fetch(`https://languageexchange-one.vercel.app/updatedReview/${item?.tutorId}`, {
                 method: "PATCH",
             });
 

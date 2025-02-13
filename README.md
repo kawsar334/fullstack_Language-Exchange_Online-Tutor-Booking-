@@ -11,7 +11,7 @@
 
 **Backend Links**
 - [backend github link](https://github.com/kawsar334/server-Language-Exchange---Online-Tutor-Booking-Platform)
-- [api Link on vercel](https://server-wheat-xi.vercel.app/) +/endpoind 
+- [api Link on vercel](https://languageexchange-one.vercel.app/) +/endpoind 
 
 ### Description
 - 

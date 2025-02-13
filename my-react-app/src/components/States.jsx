@@ -6,7 +6,7 @@ import Title from "./Title";
 const Stats = ({ LanguagesOffered }) => {
 
     const [rev, setRev] = useState(0)
-    const { data, loading, error } = useFetch(`https://server-wheat-xi.vercel.app/stats`);
+    const { data, loading, error } = useFetch(`https://languageexchange-one.vercel.app/stats`);
 
     const {isDarkMode}= useContext(ThemeContext)
 
@@ -27,7 +27,7 @@ const Stats = ({ LanguagesOffered }) => {
     }, [data?.data?.tutor]);
 
     return (
-        <div className={`my-10 w-[90%] m-auto ${isDarkMode ? "bg-transparent py-12" : " py-12"}`}>
+        <div className={`my-6 w-[90%] m-auto ${isDarkMode ? "bg-transparent py-12" : " py-12"}`}>
             <div className="container mx-auto text-center ">
                 <Title title="Our Statistics"/>
                 <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-4 gap-2 w-[80%] md:w-full mx-auto">

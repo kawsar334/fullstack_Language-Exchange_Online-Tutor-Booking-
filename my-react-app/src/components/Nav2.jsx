@@ -1,15 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../ThemeProvider';
 
 const Nav2 = () => {
+        const { isDarkMode, toggleTheme } = useContext(ThemeContext);
   return (
-    <div className='w-full h-10 bg-teal flex justify-between px-5 text-white items-center py-6'>
-        <div>
-              <a href="#" className='border-r p-3'> kawsarfiroz11@gmail.com</a>
-            <a href="#" className=' p-3'> +966509325731</a>
-
+    <div className='w-full h-10 bg-teal flex justify-between px-5 text-white items-center py-7'>
+        <div className='w-full flex justify-center items-center '>
+              <span  className='text-xl p-3'> Learn Anytime, Anywhere</span>
         </div>
         
-        <div className='w-max  flex  px-5 justify-between gap-7 items-center '>
+        {/* <div className='w-max  flex  px-5 justify-between gap-7 items-center '>
               <nav>
                   <div className="grid grid-flow-col gap-4">
                       <a>
@@ -49,7 +49,7 @@ const Nav2 = () => {
               </nav>
             
 
-        </div>
+        </div> */}
     </div>
   )
 }

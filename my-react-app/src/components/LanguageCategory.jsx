@@ -18,7 +18,7 @@ const LanguageCategory = ({ categories }) => {
     const { isDarkMode } = useContext(ThemeContext)
     const navigate = useNavigate();
     return (
-        <div id="category" data-aos="fade-up" className={`${isDarkMode ? "py-5 text-tc   w-full md:w-[90%] m-auto  my-[100px] " : "py-10  w-full md:w-[90%] m-auto  my-[100px] "}`}>
+        <div id="category" data-aos="fade-up" className={` ${isDarkMode ? "py-5 text-tc   w-full md:w-[90%] m-auto    " : "py-10  w-full md:w-[90%] m-auto   "}`}>
             {/* <h2 className="text-3xl font-bold text-center mb-8">Language Categories</h2> */}
             <Title title="Language Categories"/>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2  lg:grid-cols-4  gap-4 px-4">

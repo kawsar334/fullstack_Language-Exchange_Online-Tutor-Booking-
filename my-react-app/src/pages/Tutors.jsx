@@ -29,8 +29,8 @@ const Tutors = () => {
             try {
                 setLoading(true)
                 const url = debouncedLanguage
-                    ? `https://server-wheat-xi.vercel.app/products?language=${debouncedLanguage}`
-                    : `https://server-wheat-xi.vercel.app/products`;
+                    ? `https://languageexchange-one.vercel.app/products?language=${debouncedLanguage}`
+                    : `https://languageexchange-one.vercel.app/products`;
 
                 const response = await fetch(url);
                 const data = await response.json();

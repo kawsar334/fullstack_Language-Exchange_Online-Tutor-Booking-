@@ -21,7 +21,7 @@ const AddTutorForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('https://server-wheat-xi.vercel.app/add-tutor', {
+            const response = await fetch('https://languageexchange-one.vercel.app/add-tutor', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

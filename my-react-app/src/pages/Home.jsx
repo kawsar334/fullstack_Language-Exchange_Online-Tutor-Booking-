@@ -16,7 +16,7 @@ const Home = () => {
 
     const [categories, setCategories] = useState([])
 
-    const { data, loading, error } = useFetch(`https://server-wheat-xi.vercel.app/allproducts`);
+    const { data, loading, error } = useFetch(`https://languageexchange-one.vercel.app/allproducts`);
     const [uniqueTutor, setUniqueTutor] = useState([])
 
 

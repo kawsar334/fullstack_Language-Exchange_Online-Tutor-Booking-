@@ -16,7 +16,7 @@ const TutorDetails = () => {
     useEffect(() => {
         const fetchTutorDetails = async () => {
             try {
-                const response = await fetch(`https://server-wheat-xi.vercel.app/tutor/${email}`);
+                const response = await fetch(`https://languageexchange-one.vercel.app/tutor/${email}`);
                 if (!response.ok) {
                    console.log('Failed to fetch tutor details');
                 }
@@ -51,7 +51,7 @@ const TutorDetails = () => {
         };
 
         try {
-            const response = await fetch("https://server-wheat-xi.vercel.app/addbooked", {
+            const response = await fetch("https://languageexchange-one.vercel.app/addbooked", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

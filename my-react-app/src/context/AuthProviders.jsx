@@ -51,7 +51,7 @@ const AuthProviders = ({ children }) => {
       };
 
       try {
-        const response = await fetch("https://server-wheat-xi.vercel.app/users", {
+        const response = await fetch("https://languageexchange-one.vercel.app/users", {
           method: "post" ,
           headers: {
             "Content-Type": "application/json",
@@ -110,7 +110,7 @@ const AuthProviders = ({ children }) => {
 
     if (result.isConfirmed) {
       try {
-        const response = await fetch(`https://server-wheat-xi.vercel.app/logout`, {
+        const response = await fetch(`https://languageexchange-one.vercel.app/logout`, {
           method: "POST",
           credentials: "include",
         });
@@ -152,7 +152,7 @@ const AuthProviders = ({ children }) => {
         photoURL: user?.photoURL,
         lastSignInTime
       };
-      const response = await fetch("https://server-wheat-xi.vercel.app/users", {
+      const response = await fetch("https://languageexchange-one.vercel.app/users", {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

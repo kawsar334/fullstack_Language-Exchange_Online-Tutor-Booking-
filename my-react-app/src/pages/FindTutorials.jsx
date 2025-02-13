@@ -8,7 +8,7 @@ const FindTutorials = () => {
 
     const cat = useLocation().pathname.split("/")[2];
 
-    const { data, loading, error } = useFetch(`https://server-wheat-xi.vercel.app/findLanguage?language=${cat}`);
+    const { data, loading, error } = useFetch(`https://languageexchange-one.vercel.app/findLanguage?language=${cat}`);
 
     if (loading) return <Spiner/>;
     if (error) return <div>something went wron please wait...</div>;

@@ -35,7 +35,7 @@ const AddTutorial = () => {
         try {
 
             setLoading(true)
-            const response = await fetch('https://server-wheat-xi.vercel.app/addtutorial', {
+            const response = await fetch('https://languageexchange-one.vercel.app/addtutorial', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

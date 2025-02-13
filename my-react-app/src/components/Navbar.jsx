@@ -2,7 +2,7 @@
 
 
 import React, { useContext, useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../context/AuthProviders';
 import ThemeProvider, { ThemeContext } from '../ThemeProvider';
 import AOS from 'aos';
@@ -57,7 +57,7 @@ const Navbar = () => {
             alt="Profile"
             className="rounded-full w-[30px] h-7  object-cover"
           />
-          <Link to="#">{user?.displayName}</Link>
+          <NavLink to="/profile">{user?.displayName}</NavLink>
     </div>
       </li>}
     </>
@@ -105,7 +105,7 @@ const Navbar = () => {
               className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
             >
               <li>
-                <span className="text-sm font-semibold">{user?.displayName}</span>
+                <NavLink to="/profile" className="text-sm font-semibold">{user?.displayName}</NavLink>
               </li>
               <li>
                 <button onClick={signOutUser} className="py-1 px-3 rounded-lg">

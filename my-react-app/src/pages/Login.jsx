@@ -33,7 +33,7 @@ function LoginPage() {
                 const lastSignInTime = result?.user?.metadata?.lastSignInTime;
                 const loginInfo = { email, lastSignInTime };
 
-                fetch(`https://server-wheat-xi.vercel.app/users`, {
+                fetch(`https://languageexchange-one.vercel.app/users`, {
                 // fetch(`http://localhost:5000/users`, {
                     method: 'POST',
                     headers: {

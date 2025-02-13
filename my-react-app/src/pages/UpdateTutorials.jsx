@@ -23,7 +23,7 @@ const UpdateTutorial = () => {
     useEffect(() => {
         const fetchTutorialData = async () => {
             try {
-                const response = await fetch(`https://server-wheat-xi.vercel.app/tutorial/${tutorialId}`);
+                const response = await fetch(`https://languageexchange-one.vercel.app/tutorial/${tutorialId}`);
                 const data = await response.json();
                 setFormData(data?.data); 
                 console.log(data?.data)
@@ -48,7 +48,7 @@ const UpdateTutorial = () => {
         const { image, language, price, description,  } = formData;
 
         try {
-            const response = await fetch(`https://server-wheat-xi.vercel.app/updateTutorial/${tutorialId}`, {
+            const response = await fetch(`https://languageexchange-one.vercel.app/updateTutorial/${tutorialId}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',

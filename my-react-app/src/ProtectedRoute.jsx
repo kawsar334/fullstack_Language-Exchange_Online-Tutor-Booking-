@@ -12,7 +12,7 @@
 //     useEffect(()=>{
 //         const fetchData = async()=>{
 //             try{
-//                 const response = await fetch(`https://server-wheat-xi.vercel.app/jwt`, {
+//                 const response = await fetch(`https://languageexchange-one.vercel.app/jwt`, {
 //                     method: "GET", 
 //                     credentials: "include", 
 //                 });
@@ -53,7 +53,7 @@ const ProtectedRoute = ({ children }) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`https://server-wheat-xi.vercel.app/jwt`, {
+                const response = await fetch(`https://languageexchange-one.vercel.app/jwt`, {
                     method: "GET",
                     credentials: "include",
                 });
